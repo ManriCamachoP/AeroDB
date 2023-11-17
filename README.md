@@ -30,7 +30,7 @@ This type of query allows obtaining specific information about airports in a par
 - This directory contains .ipynb files used for web scraping to gather data from various websites.
 
 ### [database/](database)
-- **aeropuertos_centroamerica.csv**: Database in CSV format.
+- **airports_centroamerica.csv**: Database in CSV format.
 
 ### [neo4j_queries.cypher](neo4j_queries.cypher)
 - Cypher queries for interacting with the Neo4j database.
