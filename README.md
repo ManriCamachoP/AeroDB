@@ -1,49 +1,50 @@
-# Base de Datos Neo4j para Gestión de Aeropuertos en Centroamérica
+# Neo4j Database for Airport Management in Central America
 
-Este repositorio contiene la implementación de una base de datos en Neo4j destinada a gestionar información sobre aeropuertos en Centroamérica. La base de datos se ha construido utilizando Python para realizar web scraping y Neo4j para almacenar y consultar la información.
+This repository contains the implementation of a Neo4j database designed for managing information about airports in Central America. The database has been built using Python for web scraping and Neo4j for storing and querying information.
 
-## Sobre el Proyecto
+## About the Project
 
-La investigación se enfoca en la gestión eficiente de aeropuertos en la región de Centroamérica. Para lograr esto, se ha creado una base de datos que abarca información relevante sobre aeropuertos, como ubicación geográfica, horarios, aerolíneas asociadas, y más.
+The research focuses on the efficient management of airports in the Central American region. To achieve this, a database has been created that covers relevant information about airports, such as geographical location, schedules, associated airlines, and more.
 
-## Web Scraping y Creación de la Base de Datos
+## Web Scraping and Database Creation
 
-Para recolectar datos de aeropuertos en Centroamérica, se ha utilizado web scraping mediante Python. El código para esta tarea se encuentra en el archivo [web_scraping.py](web_scraping.py). Este script extrae información de sitios web pertinentes y la almacena en un archivo CSV.
+To collect data about airports in Central America, web scraping has been employed using Python. The code for this task can be found in the [web_scraping.py](web_scraping.py) file. This script extracts information from relevant websites and stores it in a CSV file.
 
-La base de datos resultante se encuentra en el directorio [database](database), donde podrás encontrar un archivo `aeropuertos_centroamerica.csv` que contiene la información recolectada.
+The resulting database is located in the [database](database) directory, where you can find a file named `airports_central_america.csv` containing the collected information.
 
-## Uso de Neo4j
+## Using Neo4j
 
-Neo4j se ha empleado como sistema de gestión de bases de datos de grafos para almacenar la información recopilada. La interacción con la base de datos se realiza mediante consultas en el lenguaje de consulta de Neo4j (Cypher). A continuación, se presenta un ejemplo simple de consulta:
+Neo4j has been used as a graph database management system to store the gathered information. Interaction with the database is done through queries in the Neo4j Query Language (Cypher). Here is a simple example query:
 
 ```cypher
-MATCH (a:Aeropuerto)
-WHERE a.pais = 'Costa Rica'
-RETURN a.nombre, a.ubicacion
+MATCH (a:Airport)
+WHERE a.country = 'Costa Rica'
+RETURN a.name, a.location
 ```
 
-Este tipo de consulta permite obtener información específica sobre aeropuertos en un país determinado.
+This type of query allows obtaining specific information about airports in a particular country.
 
-## Contenido del Repositorio
+## Repository Contents
 
-- **web_scraping/**
-  - Aquí se encuentran los archivos .ipynb utilizados para realizar el web scraping y obtener datos de diversas 
-  páginas web.
+### [web_scraping/](web_scraping)
+- This directory contains .ipynb files used for web scraping to gather data from various websites.
 
-- **database/**
-  - **aeropuertos_centroamerica.csv**: Base de datos en formato CSV.
+### [database/](database)
+- **aeropuertos_centroamerica.csv**: Database in CSV format.
 
-- **neo4j_queries.cypher**: Consultas Cypher para interactuar con la base de datos Neo4j.
+### [neo4j_queries.cypher](neo4j_queries.cypher)
+- Cypher queries for interacting with the Neo4j database.
 
-## Autor
+## Author
 
 - [Manrique Camacho](https://www.linkedin.com/in/manriquecamachop/)
 
-## Instrucciones de Uso
-1. Explorar los archivos en la carpeta `web_scraping` para revisar el código utilizado en el web scraping.
-2. La base de datos en formato CSV está disponible en la carpeta `database`.
-3. Utilizar las consultas Cypher en `neo4j_queries.cypher` para interactuar con Neo4j.
+## Usage Instructions
 
-## Licencia
+1. Explore the files in the `web_scraping` folder to review the code used for web scraping.
+2. The CSV format database is available in the `database` folder.
+3. Use the Cypher queries in `neo4j_queries.cypher` to interact with Neo4j.
 
-Este proyecto se encuentra bajo [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). Consulté el archivo LICENSE para más detalles.
+## License
+
+This project is under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). Refer to the LICENSE file for more details.
