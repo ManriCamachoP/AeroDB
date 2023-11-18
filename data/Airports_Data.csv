@@ -1,17 +1,17 @@
-,Country,Airport Name,IATA/ICAO Code,City Served,Passengers
-0,Panama,Tocumen International Airport,PTY/MPTO,Panamá City,"14,741,937[1]"
-1,Costa Rica,Juan Santamaría International Airport,SJO/MROC,San José,"6,456,750[2]"
-2,El Salvador,Comalapa International Airport,SAL/MSLP,San Salvador,"2,984,764[3]"
-3,Guatemala,La Aurora International Airport,GUA/MGGT,Guatemala City,"2,579,123[4]"
-4,Nicaragua,Augusto C. Sandino International Airport,MGA/MNMG,Managua,"1,533,034[5]"
-5,Costa Rica,Daniel Oduber International Airport,LIR/MRLB,Liberia,"1,182,123[6]"
-6,Belize,Philip S. W. Goldson International Airport,BZE/MZBZ,Belize City,"867,976[7]"
-7,Honduras,Ramón Villeda Morales International Airport,SAP/MHLM,San Pedro Sula,"867,747[8]"
-8,Honduras,Toncontín International Airport,TGU/MHTG,Tegucigalpa,"697,925[8]"
-9,Honduras,Juan Manuel Gálvez International Airport,RTB/MHRO,Roatán,"371,657[8]"
-10,Panama,Enrique Malek International Airport,DAV/MPDA,David,"323,465[1]"
-11,Panama,Albrook International Airport,PAC/MPMG,Panamá City,"230,000[10]"
-12,Honduras,Golosón International Airport,LCE/MHLC,La Ceiba,"165,802[7]"
-13,Panama,Panamá Pacífico International Airport,BLB/MPHO,Panamá City,"131,930[1]"
-14,Guatemala,Mundo Maya International Airport,FRS/MGTK,Flores/Tikal,"113,444[4]"
-15,Panama,Scarlett Martínez International Airport,RIH/MPSM,Río Hato,"63,728[1]"
+,Country,Airport Name,IATA Code,ICAO Code,City Served,Passengers,Lat,Lon
+0,Panama,Tocumen International Airport,PTY,MPTO,Panamá City,14741937,9.07139, -79.38361
+1,Costa Rica,Juan Santamaría International Airport,SJO,MROC,San José,6456750,9.99389, -84.20889
+2,El Salvador,Comalapa International Airport,SAL,MSLP,San Salvador,2984764,13.44083, -89.05556
+3,Guatemala,La Aurora International Airport,GUA,MGGT,Guatemala City,2579123,14.58167, -90.52667
+4,Nicaragua,Augusto C. Sandino International Airport,MGA,MNMG,Managua,1533034,12.14139, -86.16806
+5,Costa Rica,Daniel Oduber International Airport,LIR,MRLB,Liberia,1182123,10.59306, -85.54556
+6,Belize,Philip S. W. Goldson International Airport,BZE,MZBZ,Belize City,867976,17.53917, -88.30833
+7,Honduras,Ramón Villeda Morales International Airport,SAP,MHLM,San Pedro Sula,867747,15.45278, -87.92361
+8,Honduras,Toncontín International Airport,TGU,MHTG,Tegucigalpa,697925,14.06167, -87.21694
+9,Honduras,Juan Manuel Gálvez International Airport,RTB,MHRO,Roatán,371657,16.31722, -86.52222
+10,Panama,Enrique Malek International Airport,DAV,MPDA,David,323465,8.39167, -82.43444
+11,Panama,Albrook International Airport,PAC,MPMG,Panamá City,230000,8.97333, -79.55556
+12,Honduras,Golosón International Airport,LCE,MHLC,La Ceiba,165802,15.74222, -86.85278
+13,Panama,Panamá Pacífico International Airport,BLB,MPHO,Panamá City,131930,8.91500, -79.59944
+14,Guatemala,Mundo Maya International Airport,FRS,MGTK,Flores/Tikal,113444,16.91389, -89.86639
+15,Panama,Scarlett Martínez International Airport,RIH,MPSM,Río Hato,63728,8.37583, -80.12778
