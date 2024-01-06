@@ -1,4 +1,4 @@
-# Database Comparison: MySQL for Airport Management in Central America
+# Airport Management DataBase in Central America using Python and SQL
 
 This repository contains the implementation of a MySQL database designed for managing information about airports in Central America.
 
