@@ -1,28 +1,22 @@
-# Neo4j Database for Airport Management in Central America
+# Database Comparison: MySQL for Airport Management in Central America
 
-This repository contains the implementation of a Neo4j database designed for managing information about airports in Central America. The database has been built using Python for web scraping and Neo4j for storing and querying information.
+This repository contains the implementation of a MySQL database designed for managing information about airports in Central America.
 
 ## About the Project
 
-The research focuses on the efficient management of airports in the Central American region. To achieve this, a database has been created that covers relevant information about airports, such as geographical location, schedules, associated airlines, and more.
+The research focuses on the efficient management of airports in the Central American region. To achieve this, a MySQL database has been created that covers relevant information about airports, such as geographical location, schedules, associated airlines, and more.
 
 ## Web Scraping and Database Creation
 
 To collect data about airports in Central America, web scraping has been employed using Python. The code for this task can be found in the [web_scraping.py](web_scraping.py) file. This script extracts information from relevant websites and stores it in a CSV file.
 
-The resulting database is located in the [database](database) directory, where you can find a file named `airports_central_america.csv` containing the collected information.
+The resulting database is located in the [database](database) directory, where you will find a file named `airports_central_america.csv` containing the collected information.
 
-## Using Neo4j
+## Database Insertion via Python with Libraries
 
-Neo4j has been used as a graph database management system to store the gathered information. Interaction with the database is done through queries in the Neo4j Query Language (Cypher). Here is a simple example query:
+Data insertion into the MySQL database is facilitated through Python. The [web_scraping.py](web_scraping.py) script not only collects data but also inserts it into the database. This is achieved using the [MySQL Connector Python](https://dev.mysql.com/doc/connector-python/en/) library.
 
-```cypher
-MATCH (a:Airport)
-WHERE a.country = 'Costa Rica'
-RETURN a.name, a.location
-```
-
-This type of query allows obtaining specific information about airports in a particular country.
+This library is employed for efficient handling of large datasets during the insertion process.
 
 ## Repository Contents
 
@@ -30,10 +24,10 @@ This type of query allows obtaining specific information about airports in a par
 - This directory contains .ipynb files used for web scraping to gather data from various websites.
 
 ### [database/](database)
-- **airports_centroamerica.csv**: Database in CSV format.
+- **airports_central_america.csv**: Database in CSV format.
 
-### [neo4j_queries.cypher](neo4j_queries.cypher)
-- Cypher queries for interacting with the Neo4j database.
+### [mysql_queries.sql](mysql_queries.sql)
+- SQL queries for interacting with the MySQL database.
 
 ## Author
 
@@ -43,7 +37,17 @@ This type of query allows obtaining specific information about airports in a par
 
 1. Explore the files in the `web_scraping` folder to review the code used for web scraping.
 2. The CSV format database is available in the `database` folder.
-3. Use the Cypher queries in `neo4j_queries.cypher` to interact with Neo4j.
+3. Use the SQL queries in `mysql_queries.sql` to interact with the MySQL database.
+
+## Data Sources
+
+The data used in this project has been obtained through web scraping from the following sources:
+
+1. [Example Source 1](https://www.examplesource1.com): Information about airport schedules.
+2. [Example Source 2](https://www.examplesource2.com): Details on airport geographical locations.
+3. [Example Source 3](https://www.examplesource3.com): Data on associated airlines.
+
+Please note that it is important to review and adhere to the terms of use or licensing agreements specified by the websites you scrape data from. Respect their policies and regulations to ensure ethical and legal data usage.
 
 ## License
 
