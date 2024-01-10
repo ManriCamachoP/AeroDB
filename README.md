@@ -1,6 +1,6 @@
 # Airport Management DataBase in Central America using Python and SQL
 
-This repository contains the implementation of a MySQL database designed for managing information about airports in Central America.
+This repository contains the implementation of a MySQL database designed for managing information about airports in Florida, USA.
 
 ## About the Project
 
@@ -20,14 +20,17 @@ This library is employed for efficient handling of large datasets during the ins
 
 ## Repository Contents
 
-### [web_scraping/](web_scraping)
-- This directory contains .ipynb files used for web scraping to gather data from various websites.
+### [src/](src)
+- This directory contains .ipynb files used for web scraping, gathering information from an API, cleaning the dataframes.
+
+### [data/](data)
+- This directory is for the csv files gathered by webscrapping and the API
 
 ### [database/](database)
-- **airports_central_america.csv**: Database in CSV format.
+- **AeroDB.sql**: Database SQL format.
 
 ### [mysql_queries.sql](mysql_queries.sql)
-- SQL queries for interacting with the MySQL database.
+- SQL queries for interacting with the MySQL database. 
 
 ## Author
 
