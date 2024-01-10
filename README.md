@@ -1,6 +1,6 @@
-# Airport Management DataBase in Central America using Python and SQL
+# Airport Management DataBase in Florida, United States of America using Python and SQL
 
-This repository contains the implementation of a MySQL database designed for managing information about airports in Central America.
+This repository contains the implementation of a MySQL database designed for managing information about airports in Florida, USA.
 
 ## About the Project
 
@@ -8,7 +8,7 @@ The research focuses on the efficient management of airports in the Central Amer
 
 ## Web Scraping and Database Creation
 
-To collect data about airports in Central America, web scraping has been employed using Python. The code for this task can be found in the [web_scraping.py](web_scraping.py) file. This script extracts information from relevant websites and stores it in a CSV file.
+To collect data about airports in Florida, web scraping has been employed using Python. The code for this task can be found in the [web_scraping.py](web_scraping.py) file. This script extracts information from relevant websites and stores it in a CSV file.
 
 The resulting database is located in the [database](database) directory, where you will find a file named `airports_central_america.csv` containing the collected information.
 
@@ -20,14 +20,17 @@ This library is employed for efficient handling of large datasets during the ins
 
 ## Repository Contents
 
-### [web_scraping/](web_scraping)
-- This directory contains .ipynb files used for web scraping to gather data from various websites.
+### [src/](src)
+- This directory contains .ipynb files used for web scraping, gathering information from an API, cleaning the dataframes.
+
+### [data/](data)
+- This directory is for the csv files gathered by webscrapping and the API
 
 ### [database/](database)
-- **airports_central_america.csv**: Database in CSV format.
+- **AeroDB.sql**: Database SQL format.
 
 ### [mysql_queries.sql](mysql_queries.sql)
-- SQL queries for interacting with the MySQL database.
+- SQL queries for interacting with the MySQL database. 
 
 ## Author
 
@@ -43,9 +46,9 @@ This library is employed for efficient handling of large datasets during the ins
 
 The data used in this project has been obtained through web scraping from the following sources:
 
-1. [Wikipedia](https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Central_America): Information about airport name, location, IATA code and more...
-2. [Airport Info](https://airportinfo.live): Details on flights of central america airports
-3. [Example Source 3](https://www.examplesource3.com): Data on associated airlines.
+1. [Wikipedia](https://en.wikipedia.org/wiki/List_of_airports_in_Florida): Information about airport name, location, IATA code and more...
+2. [Wikipedia](https://en.wikipedia.org/wiki/List_of_airline_codes): Information about airlines name, ICAO code and more...
+3.  [OpenSky-API](https://opensky-network.org/): API, information of the flights.
 
 Please note that it is important to review and adhere to the terms of use or licensing agreements specified by the websites you scrape data from. Respect their policies and regulations to ensure ethical and legal data usage.
 
