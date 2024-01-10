@@ -1,17 +1,104 @@
-,Country,Airport Name,IATA Code,ICAO Code,City Served,Passengers,Lat,Lon
-0,Panama,Tocumen International Airport,PTY,MPTO,Panamá City,14741937,9.07139, -79.38361
-1,Costa Rica,Juan Santamaría International Airport,SJO,MROC,San José,6456750,9.99389, -84.20889
-2,El Salvador,Comalapa International Airport,SAL,MSLP,San Salvador,2984764,13.44083, -89.05556
-3,Guatemala,La Aurora International Airport,GUA,MGGT,Guatemala City,2579123,14.58167, -90.52667
-4,Nicaragua,Augusto C. Sandino International Airport,MGA,MNMG,Managua,1533034,12.14139, -86.16806
-5,Costa Rica,Daniel Oduber International Airport,LIR,MRLB,Liberia,1182123,10.59306, -85.54556
-6,Belize,Philip S. W. Goldson International Airport,BZE,MZBZ,Belize City,867976,17.53917, -88.30833
-7,Honduras,Ramón Villeda Morales International Airport,SAP,MHLM,San Pedro Sula,867747,15.45278, -87.92361
-8,Honduras,Toncontín International Airport,TGU,MHTG,Tegucigalpa,697925,14.06167, -87.21694
-9,Honduras,Juan Manuel Gálvez International Airport,RTB,MHRO,Roatán,371657,16.31722, -86.52222
-10,Panama,Enrique Malek International Airport,DAV,MPDA,David,323465,8.39167, -82.43444
-11,Panama,Albrook International Airport,PAC,MPMG,Panamá City,230000,8.97333, -79.55556
-12,Honduras,Golosón International Airport,LCE,MHLC,La Ceiba,165802,15.74222, -86.85278
-13,Panama,Panamá Pacífico International Airport,BLB,MPHO,Panamá City,131930,8.91500, -79.59944
-14,Guatemala,Mundo Maya International Airport,FRS,MGTK,Flores/Tikal,113444,16.91389, -89.86639
-15,Panama,Scarlett Martínez International Airport,RIH,MPSM,Río Hato,63728,8.37583, -80.12778
+,Airport Name,Location,FAA Code,ICAO Code,Usage
+0,Daytona Beach,DAB,DAB,KDAB,Daytona Beach International Airport
+1,Fort Lauderdale,FLL,FLL,KFLL,Fort Lauderdale–Hollywood International Airport
+2,Fort Myers,RSW,RSW,KRSW,Southwest Florida International Airport
+3,Fort Walton Beach,VPS,VPS,KVPS,Destin–Fort Walton Beach Airport/Eglin Air Force Base
+4,Gainesville,GNV,GNV,KGNV,Gainesville Regional Airport
+5,Jacksonville,JAX,JAX,KJAX,Jacksonville International Airport
+6,Key West,EYW,EYW,KEYW,Key West International Airport
+7,Melbourne,MLB,MLB,KMLB,Melbourne Orlando International Airport
+8,Miami,MIA,MIA,KMIA,Miami International Airport
+9,Orlando,MCO,MCO,KMCO,Orlando International Airport
+10,Panama City,ECP,ECP,KECP,Northwest Florida Beaches International Airport
+11,Pensacola,PNS,PNS,KPNS,Pensacola International Airport
+12,Punta Gorda,PGD,PGD,KPGD,Punta Gorda Airport
+13,Sanford,SFB,SFB,KSFB,Orlando Sanford International Airport
+14,Sarasota,SRQ,SRQ,KSRQ,Sarasota–Bradenton International Airport
+15,St. Petersburg,PIE,PIE,KPIE,St. Pete–Clearwater International Airport
+16,Tallahassee,TLH,TLH,KTLH,Tallahassee International Airport
+17,Tampa,TPA,TPA,KTPA,Tampa International Airport
+18,West Palm Beach,PBI,PBI,KPBI,Palm Beach International Airport
+19,Fort Lauderdale,FXE,FXE,KFXE,Fort Lauderdale Executive Airport
+20,Vero Beach,VRB,VRB,KVRB,Vero Beach Regional Airport
+21,Boca Raton,BCT,BCT,KBCT,Boca Raton Airport
+22,Clearwater,CLW,CLW,KCLW,Clearwater Air Park
+23,Fort Myers,FMY,FMY,KFMY,Page Field
+24,Hollywood,HWO,HWO,KHWO,North Perry Airport
+25,Jacksonville,CRG,CRG,KCRG,Jacksonville Executive at Craig Airport(was Craig Municipal Airport)
+26,Jacksonville,HEG,,KHEG,Herlong Recreational Airport(was Herlong Airport)
+27,Kissimmee,ISM,ISM,KISM,Kissimmee Gateway Airport
+28,Lakeland,LAL,LAL,KLAL,Lakeland Linder International Airport
+29,Miami,TMB,TMB,KTMB,Miami Executive Airport
+30,Miami,OPF,OPF,KOPF,Miami-Opa Locka Executive Airport(was Opa-locka Airport)
+31,Orlando,ORL,ORL,KORL,Executive Airport
+32,St. Petersburg,SPG,SPG,KSPG,Albert Whitted Airport
+33,Tampa,TPF,TPF,KTPF,Peter O. Knight Airport
+34,Tampa,VDF,,KVDF,Tampa Executive Airport(was Vandenberg Airport)
+35,Venice,VNC,VNC,KVNC,Venice Municipal Airport
+36,West Palm Beach/Lantana,LNA,LNA,KLNA,Palm Beach County Park Airport(Lantana Airport)
+37,Apalachicola,AAF,AAF,KAAF,Apalachicola Regional Airport-Cleve Randolph Field
+38,Avon Park,AVO,AVO,KAVO,Avon Park Executive Airport
+39,Bartow,BOW,BOW,KBOW,Bartow Executive Airport
+40,Brooksville,BKV,,KBKV,Brooksville–Tampa Bay Regional Airport
+41,Cedar Key,CDK,CDK,KCDK,George T. Lewis Airport
+42,Crestview,CEW,CEW,KCEW,Bob Sikes Airport
+43,Cross City,CTY,CTY,KCTY,Cross City Airport
+44,Crystal River,CGC,,KCGC,Crystal River Airport-Captain Tom Davis Field
+45,DeLand,DED,,KDED,DeLand Municipal Airport(Sidney H. Taylor Field)
+46,Destin,DTS,DSI,KDTS,Destin Executive Airport
+47,Fernandina Beach,FHB,,KFHB,Fernandina Beach Municipal Airport
+48,Fort Pierce,FPR,FPR,KFPR,Treasure Coast International Airport
+49,Immokalee,IMM,IMM,KIMM,Immokalee Regional Airport(was Immokalee Airport)
+50,Inverness,INF,,KINF,Inverness Airport
+51,Jacksonville,VQQ,NZC,KVQQ,Cecil Airport(was Cecil Field)
+52,Lake City,LCQ,LCQ,KLCQ,Lake City Gateway Airport(was Lake City Municipal)
+53,Leesburg,LEE,LEE,KLEE,Leesburg International Airport
+54,Marathon,MTH,MTH,KMTH,The Florida Keys Marathon International Airport
+55,Marco Island,MKY,MRK,KMKY,Marco Island Executive Airport
+56,Marianna,MAI,,KMAI,Marianna Municipal Airport
+57,Merritt Island,COI,COI,KCOI,Merritt Island Airport
+58,Miami,TNT,TNT,KTNT,Dade-Collier Training and Transition Airport
+59,Naples,APF,APF,KAPF,Naples Municipal Airport
+60,New Smyrna Beach,EVB,,KEVB,New Smyrna Beach Municipal Airport
+61,Ocala,OCF,OCF,KOCF,Ocala International Airport(Jim Taylor Field)
+62,Okeechobee,OBE,OBE,KOBE,Okeechobee County Airport
+63,Ormond Beach,OMN,,KOMN,Ormond Beach Municipal Airport
+64,Pahokee,PHK,PHK,KPHK,Palm Beach County Glades Airport
+65,Palm Coast,FIN,,KFIN,Flagler Executive Airport
+66,Perry,FPY,FPY,KFPY,Perry-Foley Airport
+67,Plant City,PCM,,KPCM,Plant City Airport
+68,Pompano Beach,PMP,PPM,KPMP,Pompano Beach Airpark
+69,Sebring,SEF,SEF,KSEF,Sebring Regional Airport
+70,St. Augustine,SGJ,UST,KSGJ,Northeast Florida Regional Airport
+71,Stuart,SUA,SUA,KSUA,Witham Field
+72,Titusville,TIX,TIX,KTIX,Space Coast Regional Airport
+73,Wauchula,CHN,,KCHN,Wauchula Municipal Airport
+74,Winter Haven,GIF,GIF,KGIF,Winter Haven's Gilbert Airport
+75,Zephyrhills,ZPH,ZPH,KZPH,Zephyrhills Municipal Airport
+76,Avon Park,AGR,,KAGR,MacDill AFB Auxiliary Field
+77,Cocoa Beach,XMR,,KXMR,Cape Canaveral Space Force Station
+78,Cocoa Beach,COF,COF,KCOF,Patrick Space Force Base
+79,Crestview,EGI,EGI,KEGI,Duke Field(Eglin AFB Auxiliary Field 3)
+80,Fort Walton Beach,NKL,,KNKL,NOLF Holley[3]
+81,Harold,NZX,,KNZX,NOLF Harold
+82,Homestead,HST,HST,KHST,Homestead Joint Air Reserve Base
+83,Jacksonville,NIP,NIP,KNIP,NAS Jacksonville(Towers Field)
+84,Jacksonville,NEN,NEN,KNEN,NOLF Whitehouse
+85,Jay,NSX,,KNSX,NOLF Site X
+86,Key West,NQX,NQX,KNQX,NAS Key West(Boca Chica Field)
+87,Mary Esther,HRT,,KHRT,Hurlburt Field
+88,Mayport,NRB,NRB,KNRB,NS Mayport(Adm. David L. McDonald Field)
+89,Milton,NSE,NSE,KNSE,NAS Whiting Field – North
+90,Milton,NDZ,,KNDZ,NAS Whiting Field – South
+91,Milton,NFJ,,KNFJ,NOLF Choctaw
+92,Milton,NGS,,KNGS,NOLF Santa Rosa
+93,Pace,NRQ,,KNRQ,NOLF Spencer
+94,Panama City,PAM,PAM,KPAM,Tyndall Air Force Base
+95,Pensacola,NPA,NPA,KNPA,NAS Pensacola(Forrest Sherman Field)
+96,Pensacola,NUN,NUN,KNUN,NOLF Saufley Field
+97,Pensacola,,,KNPI,NOLF Site 8[4](Closed?)
+98,Tampa,MCF,MCF,KMCF,MacDill Air Force Base
+99,Titusville,TTS,,KTTS,NASA Shuttle Landing Facility
+100,Valparaiso,VPS,VPS,KVPS,Eglin AFB/Destin-Ft Walton
+101,Wallace,NVI,,KNVI,NOLF Pace[5]
+102,Panama City,PFN,PFN,KPFN,Panama City–Bay County International Airport(1938-2010)(replaced byNorthwest Florida Beaches International Airport)
