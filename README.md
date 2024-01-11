@@ -74,8 +74,8 @@ SQL queries in [mysql_queries.sql](queries/mysql_queries.sql) have been used to 
 ## Usage Instructions
 
 1. Explore the files in the `src` folder to review the code used for web scraping and API integration.
-2. The MySQL database schema is available in the `database` folder.
-3. Utilize the SQL queries in `mysql_queries.sql` for interacting with the MySQL database.
+2. The MySQL database schema is available in the `database` folder, the database creation and also the data insertion.
+3. Utilize the SQL queries in `airport_analysis.sql` for interacting with the MySQL database.
 
 
 ## Data Sources
