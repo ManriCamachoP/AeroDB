@@ -1,3 +1,5 @@
+USE AeroDB;
+
 -- FIRST PART: See which airport has the most arrivals and departures on Florida
 SELECT
     a.AirportName,
